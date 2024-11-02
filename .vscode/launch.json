@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": "Launch Blazor Web App",
+            "program": "${workspaceFolder}/src/DemoBlazorTheme.Web/bin/Debug/net6.0/DemoBlazorTheme.Web.dll",
+            "args": ["watch", "run"],
+            "cwd": "${workspaceFolder}/src/DemoBlazorTheme.Web",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "launchBrowser": {
+                "enabled": true,
+                "url": "http://localhost:7054"
+            }
+        }
+    ]
+}
