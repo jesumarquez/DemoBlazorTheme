@@ -4,8 +4,8 @@
             "type": "coreclr",
             "request": "launch",
             "name": "Launch Blazor Web App",
-            "program": "${workspaceFolder}/src/DemoBlazorTheme.Web/bin/Debug/net6.0/DemoBlazorTheme.Web.dll",
-            "args": ["watch", "run"],
+            "program": "dotnet",
+            "args": ["watch"],
             "cwd": "${workspaceFolder}/src/DemoBlazorTheme.Web",
             "stopAtEntry": false,
             "env": {
