@@ -11,10 +11,10 @@
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
-            "launchBrowser": {
-                "enabled": true,
-                "url": "http://localhost:7054"
-            }
+            // "launchBrowser": {
+            //     "enabled": true,
+            //     "url": "http://localhost:7054"
+            // }
         }
     ]
 }
